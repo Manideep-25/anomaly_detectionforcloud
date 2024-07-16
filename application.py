@@ -6,7 +6,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.svm import SVC
 from sklearn.model_selection import train_test_split
 
-app = Flask(__name__)
+application = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = 'uploads/'
 
 @app.route('/')

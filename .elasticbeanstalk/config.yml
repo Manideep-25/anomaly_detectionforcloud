@@ -1,0 +1,10 @@
+branch-defaults:
+  main:
+    environment: my-flask-env
+global:
+  application_name: my-flask-app
+  default_ec2_keyname: aws-eb
+  default_platform: python-3.8
+  default_region: us-west-2
+  profile: eb-cli
+  sc: git
